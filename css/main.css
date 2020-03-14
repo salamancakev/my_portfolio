@@ -89,7 +89,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/access-blur-close-up-1181271.jpg);
+    background: url(img/access-blur-close-up-1181271.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -159,7 +159,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job-1 job-1 job-1";
+  grid-template-areas: "bioimage bio bio"
+ "job-1 job-1 job-1";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -285,18 +286,24 @@ main {
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job-1" "job-2" "job-3";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job-1"
+ "job-2"
+ "job-3";
     grid-template-columns: 1fr; }
   .align-text {
     text-align: center !important; }
   .project {
-    grid-template-areas: "work-text" "work-images";
+    grid-template-areas: "work-text"
+ "work-images";
     grid-template-columns: 1fr; }
     .project .work-text {
       display: flex;
       flex-direction: column; }
   .project-2 {
-    grid-template-areas: "work-text" "work-images";
+    grid-template-areas: "work-text"
+ "work-images";
     grid-template-columns: 1fr; }
     .project-2 .work-text {
       display: flex;
